@@ -1,7 +1,7 @@
 Feature:Logging into Salesforce
 
 In order to work
-as sales person
+as test pro
 I want to login
 
 
