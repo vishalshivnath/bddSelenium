@@ -1,4 +1,0 @@
--------------------------------------------
-Create a mvn project in cmd --to start with
--------------------------------------------
-mvn archetype:generate -DgroupId=com.fico.test.acm -DartifactId=bdd-acm -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
