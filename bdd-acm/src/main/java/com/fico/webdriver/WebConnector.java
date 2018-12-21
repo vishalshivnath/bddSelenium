@@ -33,7 +33,7 @@ public class WebConnector {
   if(prop==null) {  
     try {
           prop= new Properties();
-          FileInputStream fs = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\project.properties");
+          FileInputStream fs = new FileInputStream(System.getProperty("user.dir")+"/src/test/resources/project.properties");
           prop.load(fs);
       } catch (Exception e) {
           e.printStackTrace();
@@ -46,7 +46,7 @@ public class WebConnector {
   if(browserName.equals("Mozilla"))
     driver= new FirefoxDriver();
   else if(browserName.equals("Chrome")){
-    System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\chromerDriver\\chromedriver.exe");
+    System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/test/resources/chromerDriver/chromedriver");
     driver= new ChromeDriver();
     }else if(browserName.equals("IE"))
     driver= new InternetExplorerDriver();

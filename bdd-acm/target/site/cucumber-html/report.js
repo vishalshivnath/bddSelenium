@@ -34,13 +34,13 @@ formatter.step({
     {
       "cells": [
         "Username",
-        "shashankrajput@fico.com"
+        "vishaltyagi@fico.com"
       ]
     },
     {
       "cells": [
         "Password",
-        "morning@12"
+        "QAZwsx1@"
       ]
     }
   ]
@@ -110,13 +110,13 @@ formatter.step({
     {
       "cells": [
         "Username",
-        "shashankrajput@fico.com"
+        "vishaltyagi@fico.com"
       ]
     },
     {
       "cells": [
         "Password",
-        "morning@12"
+        "QAZwsx1@"
       ]
     }
   ],

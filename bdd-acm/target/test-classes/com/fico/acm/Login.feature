@@ -26,8 +26,8 @@ Scenario Outline: Logging into Siron ACM
     Given I open <Browser>
     And I navigate to loginURL
     And I login inside application
-    |Username|shashankrajput@fico.com|
-    |Password|morning@12|
+    |Username|vishaltyagi@fico.com|
+    |Password|QAZwsx1@|
     #And I type shashankrajput@fico.com in username field
     #And I type morning@12 in password field
     #And I Click on loginbutton
